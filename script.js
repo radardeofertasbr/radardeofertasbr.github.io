@@ -1,0 +1,1 @@
+document.querySelectorAll('.track').forEach((el)=>{el.addEventListener('click',()=>{try{let n=Number(localStorage.getItem('radar_cta_clicks')||0)+1;localStorage.setItem('radar_cta_clicks',String(n));}catch(e){}})});
